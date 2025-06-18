@@ -1,0 +1,89 @@
+{
+    "name": "Initiative",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "Initiative title"
+      },
+      "description": {
+        "type": "string",
+        "description": "Detailed description with markdown support"
+      },
+      "objectives": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Strategic objectives and goals"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "Planning",
+          "Active",
+          "On Hold",
+          "Completed",
+          "Cancelled"
+        ],
+        "default": "Planning"
+      },
+      "priority": {
+        "type": "string",
+        "enum": [
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ],
+        "default": "Medium"
+      },
+      "owner_email": {
+        "type": "string",
+        "description": "Initiative owner email"
+      },
+      "stakeholders": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Stakeholder emails"
+      },
+      "start_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "target_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "budget": {
+        "type": "number",
+        "description": "Budget allocation"
+      },
+      "progress": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100,
+        "default": 0
+      },
+      "notes": {
+        "type": "string",
+        "description": "Research notes and findings"
+      },
+      "related_project_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Related project IDs"
+      },
+      "quarter": {
+        "type": "string",
+        "description": "Target quarter (e.g., Q1 2025)"
+      }
+    },
+    "required": [
+      "title"
+    ]
+  }

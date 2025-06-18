@@ -1,0 +1,109 @@
+{
+  "name": "Issue",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Issue title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Issue description with markdown support"
+    },
+    "project_id": {
+      "type": "string",
+      "description": "Associated project ID"
+    },
+    "assignee_email": {
+      "type": "string",
+      "description": "Primary assignee email"
+    },
+    "assignees": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Multiple assignee emails"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Backlog",
+        "Planned",
+        "In Progress",
+        "Review",
+        "Testing",
+        "Done",
+        "Cancelled"
+      ],
+      "default": "Backlog"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ],
+      "default": "Medium"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Bug",
+        "Feature",
+        "Task",
+        "Improvement",
+        "Epic",
+        "Story"
+      ],
+      "default": "Task"
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "estimated_hours": {
+      "type": "number"
+    },
+    "actual_hours": {
+      "type": "number"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "size": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "story_points": {
+      "type": "number",
+      "description": "Complexity estimation"
+    },
+    "acceptance_criteria": {
+      "type": "string",
+      "description": "Acceptance criteria with markdown"
+    }
+  },
+  "required": [
+    "title",
+    "project_id"
+  ]
+}

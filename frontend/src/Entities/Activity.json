@@ -1,0 +1,21 @@
+{
+    "name": "Activity",
+    "type": "object",
+    "properties": {
+      "project_id": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string",
+        "description": "A description of the activity, e.g., 'John Doe changed the status from In Progress to Done'"
+      },
+      "related_entity_id": {
+        "type": "string",
+        "description": "The ID of the related entity (e.g., task, project, status update)"
+      }
+    },
+    "required": [
+      "project_id",
+      "description"
+    ]
+  }

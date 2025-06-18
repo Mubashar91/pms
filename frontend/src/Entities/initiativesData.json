@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Digital Transformation",
+    "description": "Company-wide digital transformation initiative to modernize our technology stack and processes",
+    "objectives": [
+      "Migrate legacy systems to cloud",
+      "Implement modern DevOps practices",
+      "Enhance digital customer experience"
+    ],
+    "status": "Active",
+    "priority": "High",
+    "owner_email": "john.doe@example.com",
+    "stakeholders": ["john.doe@example.com", "jane.smith@example.com"],
+    "start_date": "2024-01-01",
+    "target_date": "2024-12-31",
+    "budget": "$5,000,000",
+    "quarter": "Q1 2024",
+    "progress": 45,
+    "notes": "Initial planning phase completed. Awaiting stakeholder approval."
+  },
+  {
+    "id": "2",
+    "title": "Customer Experience Enhancement",
+    "description": "Improving customer experience across all touchpoints",
+    "objectives": [
+      "Reduce customer support response time",
+      "Implement new customer feedback system",
+      "Enhance self-service capabilities"
+    ],
+    "status": "Planning",
+    "priority": "Medium",
+    "owner_email": "sarah.jones@example.com",
+    "stakeholders": ["sarah.jones@example.com", "mike.wilson@example.com"],
+    "start_date": "2024-02-15",
+    "target_date": "2024-12-31",
+    "budget": "$2,500,000",
+    "quarter": "Q2 2024",
+    "progress": 10,
+    "notes": "Initial requirements gathering phase."
+  },
+  {
+    "id": "3",
+    "title": "Sustainability Program",
+    "description": "Implementing sustainable practices across operations",
+    "objectives": [
+      "Reduce carbon footprint by 30%",
+      "Implement recycling programs",
+      "Achieve sustainability certifications"
+    ],
+    "status": "Active",
+    "priority": "High",
+    "owner_email": "emily.green@example.com",
+    "stakeholders": ["emily.green@example.com", "david.brown@example.com"],
+    "start_date": "2024-03-01",
+    "target_date": "2024-12-31",
+    "budget": "$3,000,000",
+    "quarter": "Q3 2024",
+    "progress": 30,
+    "notes": "Working on initial implementation plan."
+  },
+  {
+    "id": "4",
+    "title": "Employee Development",
+    "description": "Enhancing employee skills and development programs",
+    "objectives": [
+      "Launch new training programs",
+      "Implement mentorship system",
+      "Enhance career development paths"
+    ],
+    "status": "Planning",
+    "priority": "Medium",
+    "owner_email": "lisa.carter@example.com",
+    "stakeholders": ["lisa.carter@example.com", "tom.wright@example.com"],
+    "start_date": "2024-04-01",
+    "target_date": "2024-12-31",
+    "budget": "$1,500,000",
+    "quarter": "Q4 2024",
+    "progress": 0,
+    "notes": "Initial planning phase."
+  }
+]

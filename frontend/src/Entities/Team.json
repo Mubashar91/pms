@@ -1,0 +1,33 @@
+[
+  {
+    "id": "team1",
+    "name": "Development Team",
+    "description": "Core development team responsible for product features",
+    "icon": "💻",
+    "members": [
+      "jawad.sharif@company.com",
+      "muhammad.junaid@company.com",
+      "atta.rehman@company.com"
+    ]
+  },
+  {
+    "id": "team2",
+    "name": "Design Team",
+    "description": "UI/UX design and frontend development",
+    "icon": "🎨",
+    "members": [
+      "hassan.majid@company.com",
+      "waqas.ilyas@company.com"
+    ]
+  },
+  {
+    "id": "team3",
+    "name": "QA Team",
+    "description": "Quality assurance and testing",
+    "icon": "🎯",
+    "members": [
+      "usama.sohaib@company.com",
+      "sohaib.amjad@company.com"
+    ]
+  }
+]

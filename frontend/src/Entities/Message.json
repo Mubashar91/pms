@@ -1,0 +1,38 @@
+{
+    "name": "Message",
+    "type": "object",
+    "properties": {
+      "conversation_id": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string"
+      },
+      "sender_email": {
+        "type": "string"
+      },
+      "reply_to_id": {
+        "type": "string",
+        "description": "ID of the message this is replying to"
+      },
+      "reactions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "emoji": {
+              "type": "string"
+            },
+            "user_email": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "conversation_id",
+      "content",
+      "sender_email"
+    ]
+  }

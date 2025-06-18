@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Project Alpha",
+    "description": "A comprehensive project management system",
+    "status": "active",
+    "startDate": "2025-01-15",
+    "endDate": "2025-12-31",
+    "teamSize": 5,
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "title": "Project Beta",
+    "description": "Client management portal",
+    "status": "planning",
+    "startDate": "2025-03-01",
+    "endDate": "2025-09-30",
+    "teamSize": 3,
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "title": "Project Gamma",
+    "description": "Internal tools development",
+    "status": "completed",
+    "startDate": "2024-06-15",
+    "endDate": "2025-02-28",
+    "teamSize": 4,
+    "priority": "low"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "project_id": "1",
+    "content": "Completed initial design phase and started development",
+    "status": "On Track",
+    "created_date": "2024-03-15T14:30:00Z",
+    "author_email": "john.doe@example.com",
+    "reactions": [
+      {
+        "emoji": "👍",
+        "user_email": "sarah.jones@example.com"
+      }
+    ],
+    "replies": [
+      {
+        "content": "Great progress!",
+        "author_email": "mike.wilson@example.com",
+        "created_date": "2024-03-15T14:45:00Z"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "project_id": "2",
+    "content": "Encountered technical difficulties with database migration",
+    "status": "At Risk",
+    "created_date": "2024-03-16T09:15:00Z",
+    "author_email": "sarah.jones@example.com",
+    "reactions": [],
+    "replies": []
+  },
+  {
+    "id": "3",
+    "project_id": "3",
+    "content": "Successfully deployed to staging environment",
+    "status": "On Track",
+    "created_date": "2024-03-17T11:20:00Z",
+    "author_email": "mike.wilson@example.com",
+    "reactions": [
+      {
+        "emoji": "🎉",
+        "user_email": "john.doe@example.com"
+      },
+      {
+        "emoji": "👏",
+        "user_email": "sarah.jones@example.com"
+      }
+    ],
+    "replies": []
+  }
+]

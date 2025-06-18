@@ -1,0 +1,37 @@
+[
+  {
+    "id": "comment1",
+    "issue_id": "issue1",
+    "content": "Started investigating the authentication issue. Found potential problems in the token validation logic.",
+    "author_email": "john@example.com",
+    "created_date": "2024-03-15T11:30:00Z"
+  },
+  {
+    "id": "comment2",
+    "issue_id": "issue1",
+    "content": "I've identified the root cause. The token expiration check is not working correctly.",
+    "author_email": "john@example.com",
+    "created_date": "2024-03-15T14:45:00Z"
+  },
+  {
+    "id": "comment3",
+    "issue_id": "issue2",
+    "content": "Created initial design mockups for the dark mode implementation.",
+    "author_email": "sarah@example.com",
+    "created_date": "2024-03-14T15:20:00Z"
+  },
+  {
+    "id": "comment4",
+    "issue_id": "issue3",
+    "content": "Completed initial database query analysis. Found several opportunities for optimization.",
+    "author_email": "mike@example.com",
+    "created_date": "2024-03-13T10:30:00Z"
+  },
+  {
+    "id": "comment5",
+    "issue_id": "issue4",
+    "content": "Started working on the mobile responsive layout for the dashboard.",
+    "author_email": "sarah@example.com",
+    "created_date": "2024-03-12T13:15:00Z"
+  }
+] 

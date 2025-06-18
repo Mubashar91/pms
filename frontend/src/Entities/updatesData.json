@@ -1,0 +1,61 @@
+[
+  {
+    "id": "1",
+    "initiative_id": "1",
+    "title": "Initial Planning Phase",
+    "content": "Completed initial planning phase. Stakeholders have been identified and initial timeline established. Awaiting budget approval.",
+    "status": "On Track",
+    "created_date": "2024-01-15",
+    "created_by": "john.doe@example.com",
+    "attachments": [
+      {
+        "id": "1",
+        "filename": "planning_document.pdf",
+        "url": "https://example.com/planning_document.pdf"
+      }
+    ],
+    "replies": [
+      {
+        "id": "1",
+        "content": "Great progress! Please ensure to include risk assessment in the next update.",
+        "created_by": "jane.smith@example.com",
+        "created_date": "2024-01-16"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "initiative_id": "2",
+    "title": "Requirements Gathering",
+    "content": "Completed requirements gathering with key stakeholders. Identified 5 major requirements and 3 technical constraints.",
+    "status": "On Track",
+    "created_date": "2024-02-20",
+    "created_by": "sarah.jones@example.com",
+    "attachments": [],
+    "replies": []
+  },
+  {
+    "id": "3",
+    "initiative_id": "3",
+    "title": "Implementation Plan",
+    "content": "Developed detailed implementation plan. Identified key milestones and resource requirements.",
+    "status": "On Track",
+    "created_date": "2024-03-10",
+    "created_by": "emily.green@example.com",
+    "attachments": [
+      {
+        "id": "2",
+        "filename": "implementation_plan.docx",
+        "url": "https://example.com/implementation_plan.docx"
+      }
+    ],
+    "replies": [
+      {
+        "id": "2",
+        "content": "Please review the environmental impact assessment section.",
+        "created_by": "david.brown@example.com",
+        "created_date": "2024-03-11"
+      }
+    ]
+  }
+]

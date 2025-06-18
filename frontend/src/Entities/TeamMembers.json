@@ -1,0 +1,58 @@
+[
+  {
+    "email": "jawad.sharif@company.com",
+    "name": "Jawad Sharif",
+    "baseRole": "Project Manager",
+    "teams": ["Development Team", "Design Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Jawad+Sharif&background=random"
+  },
+  {
+    "email": "muhammad.junaid@company.com",
+    "name": "Muhammad Junaid",
+    "baseRole": "Team Lead",
+    "teams": ["Development Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Muhammad+Junaid&background=random"
+  },
+  {
+    "email": "atta.rehman@company.com",
+    "name": "Atta Rehman",
+    "baseRole": "Senior SQA",
+    "teams": ["Development Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Atta+Rehman&background=random"
+  },
+  {
+    "email": "hassan.majid@company.com",
+    "name": "Hassan Majid",
+    "baseRole": "UI UX Designer",
+    "teams": ["Design Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Hassan+Majid&background=random"
+  },
+  {
+    "email": "waqas.ilyas@company.com",
+    "name": "Waqas Ilyas",
+    "baseRole": "Software Engineer",
+    "teams": ["Development Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Waqas+Ilyas&background=random"
+  },
+  {
+    "email": "usama.sohaib@company.com",
+    "name": "Usama Sohaib",
+    "baseRole": "Software Engineer",
+    "teams": ["Development Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Usama+Sohaib&background=random"
+  },
+  {
+    "email": "sohaib.amjad@company.com",
+    "name": "Sohaib Amjad",
+    "baseRole": "Project Coordinator",
+    "teams": ["QA Team"],
+    "joinedDate": "2024-01-15",
+    "avatar": "https://ui-avatars.com/api/?name=Sohaib+Amjad&background=random"
+  }
+]

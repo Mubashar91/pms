@@ -1,0 +1,37 @@
+{
+    "name": "Milestone",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "The name of the milestone"
+      },
+      "description": {
+        "type": "string",
+        "description": "A description of what the milestone entails"
+      },
+      "project_id": {
+        "type": "string",
+        "description": "The project this milestone belongs to"
+      },
+      "due_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "Upcoming",
+          "In Progress",
+          "Completed",
+          "Delayed"
+        ],
+        "default": "Upcoming"
+      }
+    },
+    "required": [
+      "title",
+      "project_id",
+      "due_date"
+    ]
+  }

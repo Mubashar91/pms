@@ -1,0 +1,34 @@
+{
+  "name": "StatusUpdate",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "parent_update_id": {
+      "type": "string",
+      "description": "The ID of the parent update if this is a reply"
+    },
+    "update_text": {
+      "type": "string"
+    },
+    "reactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "emoji": {
+            "type": "string"
+          },
+          "user_email": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "update_text"
+  ]
+}

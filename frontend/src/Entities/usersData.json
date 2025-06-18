@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "username": "johndoe",
+    "email": "john.doe@example.com",
+    "fullName": "John Doe",
+    "role": "Project Manager",
+    "avatar": "https://ui-avatars.com/api/?name=John+Doe"
+  },
+  {
+    "id": "2",
+    "username": "janedoe",
+    "email": "jane.doe@example.com",
+    "fullName": "Jane Doe",
+    "role": "Developer",
+    "avatar": "https://ui-avatars.com/api/?name=Jane+Doe"
+  },
+  {
+    "id": "3",
+    "username": "sarah",
+    "email": "sarah.jones@example.com",
+    "fullName": "Sarah Jones",
+    "role": "Designer",
+    "avatar": "https://ui-avatars.com/api/?name=Sarah+Jones"
+  },
+  {
+    "id": "4",
+    "username": "mike",
+    "email": "mike.wilson@example.com",
+    "fullName": "Mike Wilson",
+    "role": "Developer",
+    "avatar": "https://ui-avatars.com/api/?name=Mike+Wilson"
+  },
+  {
+    "id": "5",
+    "username": "emily",
+    "email": "emily.green@example.com",
+    "fullName": "Emily Green",
+    "role": "Project Manager",
+    "avatar": "https://ui-avatars.com/api/?name=Emily+Green"
+  },
+  {
+    "id": "6",
+    "username": "david",
+    "email": "david.brown@example.com",
+    "fullName": "David Brown",
+    "role": "Developer",
+    "avatar": "https://ui-avatars.com/api/?name=David+Brown"
+  },
+  {
+    "id": "7",
+    "username": "lisa",
+    "email": "lisa.carter@example.com",
+    "fullName": "Lisa Carter",
+    "role": "Project Manager",
+    "avatar": "https://ui-avatars.com/api/?name=Lisa+Carter"
+  },
+  {
+    "id": "8",
+    "username": "tom",
+    "email": "tom.wright@example.com",
+    "fullName": "Tom Wright",
+    "role": "Developer",
+    "avatar": "https://ui-avatars.com/api/?name=Tom+Wright"
+  }
+]

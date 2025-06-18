@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "project_id": "1",
+    "update_text": "Completed initial design mockups for the new dashboard interface",
+    "update_type": "Daily Standup",
+    "blockers": "Waiting for feedback from the design team",
+    "next_steps": "Implement responsive layouts once feedback is received",
+    "created_by": "hassan.majid@company.com",
+    "created_date": "2024-03-10T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "project_id": "2",
+    "update_text": "Mobile app development progressing well, completed 3 core features",
+    "update_type": "Weekly Summary",
+    "blockers": "None",
+    "next_steps": "Begin integration testing next week",
+    "created_by": "david.kim@company.com",
+    "created_date": "2024-03-09T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "project_id": "3",
+    "update_text": "Cloud infrastructure setup completed successfully",
+    "update_type": "Milestone",
+    "blockers": "None",
+    "next_steps": "Begin deployment of microservices",
+    "created_by": "usama.sohaib@company.com",
+    "created_date": "2024-03-08T11:15:00Z"
+  },
+  {
+    "id": "4",
+    "project_id": "5",
+    "update_text": "Security audit revealed some vulnerabilities that need immediate attention",
+    "update_type": "Issue",
+    "blockers": "Critical security patches required",
+    "next_steps": "Schedule emergency security update",
+    "created_by": "robert.garcia@company.com",
+    "created_date": "2024-03-07T16:45:00Z"
+  },
+  {
+    "id": "5",
+    "project_id": "6",
+    "update_text": "Data analytics pipeline implementation is on track",
+    "update_type": "General",
+    "blockers": "None",
+    "next_steps": "Begin data validation testing",
+    "created_by": "atta.rehman@company.com",
+    "created_date": "2024-03-06T10:20:00Z"
+  }
+]

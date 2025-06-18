@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "title": "Q1 2024",
+    "description": "First quarter cycle with focus on product development",
+    "project_id": "1",
+    "start_date": "2024-01-01",
+    "end_date": "2024-03-31",
+    "status": "Active",
+    "goals": [
+      "Complete website redesign",
+      "Launch mobile app MVP",
+      "Improve customer engagement"
+    ],
+    "team_members": [
+      "john.doe@example.com",
+      "sarah.jones@example.com",
+      "mike.wilson@example.com"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Q2 2024",
+    "description": "Second quarter cycle focusing on growth and optimization",
+    "project_id": "2",
+    "start_date": "2024-04-01",
+    "end_date": "2024-06-30",
+    "status": "Planning",
+    "goals": [
+      "Enhance mobile app features",
+      "Optimize website performance",
+      "Increase user base"
+    ],
+    "team_members": [
+      "emily.green@example.com",
+      "david.brown@example.com",
+      "lisa.carter@example.com"
+    ]
+  }
+]

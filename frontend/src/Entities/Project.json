@@ -1,0 +1,562 @@
+[
+  {
+    "id": "1",
+    "title": "Website Redesign",
+    "description": "Complete overhaul of the company website with modern design and improved UX",
+    "team_id": "team1",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "On Track",
+    "lead_email": "john@example.com",
+    "team_members": [
+      {
+        "user_email": "john@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "sarah@example.com",
+        "role": "Designer"
+      }
+    ],
+    "start_date": "2024-01-01",
+    "end_date": "2024-03-31",
+    "progress": 65,
+    "labels": ["design", "frontend", "ux"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Digital Transformation"],
+    "goals": ["Improve user engagement", "Increase conversion rate"]
+  },
+  {
+    "id": "2",
+    "title": "Mobile App Development",
+    "description": "Development of a new mobile application for iOS and Android platforms",
+    "team_id": "team2",
+    "status": "In Progress",
+    "priority": "Urgent",
+    "health": "At Risk",
+    "lead_email": "mike@example.com",
+    "team_members": [
+      {
+        "user_email": "mike@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "alex@example.com",
+        "role": "Developer"
+      }
+    ],
+    "start_date": "2024-02-01",
+    "end_date": "2024-05-31",
+    "progress": 30,
+    "labels": ["mobile", "development", "ios", "android"],
+    "dependencies": ["1"],
+    "attachment_urls": [],
+    "initiatives": ["Mobile First"],
+    "goals": ["Launch MVP", "Reach 10k downloads"]
+  },
+  {
+    "id": "3",
+    "title": "Cloud Migration",
+    "description": "Migrate existing infrastructure to cloud-based solutions",
+    "team_id": "team3",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "On Track",
+    "lead_email": "emma@example.com",
+    "team_members": [
+      {
+        "user_email": "emma@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "david@example.com",
+        "role": "DevOps Engineer"
+      }
+    ],
+    "start_date": "2024-01-15",
+    "end_date": "2024-06-30",
+    "progress": 45,
+    "labels": ["cloud", "devops", "infrastructure"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Cloud First"],
+    "goals": ["Reduce infrastructure costs", "Improve scalability"]
+  },
+  {
+    "id": "4",
+    "title": "AI Chatbot Integration",
+    "description": "Implement AI-powered chatbot for customer support",
+    "team_id": "team4",
+    "status": "Planned",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "lisa@example.com",
+    "team_members": [
+      {
+        "user_email": "lisa@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "tom@example.com",
+        "role": "AI Engineer"
+      }
+    ],
+    "start_date": "2024-03-01",
+    "end_date": "2024-07-31",
+    "progress": 0,
+    "labels": ["ai", "chatbot", "automation"],
+    "dependencies": ["3"],
+    "attachment_urls": [],
+    "initiatives": ["AI Integration"],
+    "goals": ["Reduce support tickets", "24/7 customer support"]
+  },
+  {
+    "id": "5",
+    "title": "Security Audit",
+    "description": "Comprehensive security audit and vulnerability assessment",
+    "team_id": "team5",
+    "status": "In Progress",
+    "priority": "Critical",
+    "health": "At Risk",
+    "lead_email": "james@example.com",
+    "team_members": [
+      {
+        "user_email": "james@example.com",
+        "role": "Security Lead"
+      },
+      {
+        "user_email": "anna@example.com",
+        "role": "Security Analyst"
+      }
+    ],
+    "start_date": "2024-02-15",
+    "end_date": "2024-04-15",
+    "progress": 25,
+    "labels": ["security", "audit", "compliance"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Security First"],
+    "goals": ["Identify vulnerabilities", "Compliance certification"]
+  },
+  {
+    "id": "6",
+    "title": "Data Analytics Platform",
+    "description": "Build a new data analytics and visualization platform",
+    "team_id": "team6",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "On Track",
+    "lead_email": "rachel@example.com",
+    "team_members": [
+      {
+        "user_email": "rachel@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "peter@example.com",
+        "role": "Data Scientist"
+      }
+    ],
+    "start_date": "2024-01-20",
+    "end_date": "2024-08-31",
+    "progress": 40,
+    "labels": ["analytics", "data", "visualization"],
+    "dependencies": ["3"],
+    "attachment_urls": [],
+    "initiatives": ["Data Driven"],
+    "goals": ["Real-time analytics", "Better decision making"]
+  },
+  {
+    "id": "7",
+    "title": "API Gateway Implementation",
+    "description": "Implement a new API gateway for better service management",
+    "team_id": "team7",
+    "status": "In Progress",
+    "priority": "Medium",
+    "health": "Delayed",
+    "lead_email": "mark@example.com",
+    "team_members": [
+      {
+        "user_email": "mark@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "sophie@example.com",
+        "role": "Backend Developer"
+      }
+    ],
+    "start_date": "2024-02-01",
+    "end_date": "2024-05-31",
+    "progress": 20,
+    "labels": ["api", "backend", "microservices"],
+    "dependencies": ["3"],
+    "attachment_urls": [],
+    "initiatives": ["API First"],
+    "goals": ["Better API management", "Improved security"]
+  },
+  {
+    "id": "8",
+    "title": "Employee Portal Redesign",
+    "description": "Redesign the internal employee portal for better usability",
+    "team_id": "team1",
+    "status": "Completed",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "john@example.com",
+    "team_members": [
+      {
+        "user_email": "john@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "sarah@example.com",
+        "role": "Designer"
+      }
+    ],
+    "start_date": "2023-11-01",
+    "end_date": "2024-01-31",
+    "progress": 100,
+    "labels": ["internal", "design", "portal"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Employee Experience"],
+    "goals": ["Improve employee satisfaction", "Streamline processes"]
+  },
+  {
+    "id": "9",
+    "title": "Payment System Upgrade",
+    "description": "Upgrade the payment processing system with new features",
+    "team_id": "team8",
+    "status": "In Progress",
+    "priority": "Critical",
+    "health": "Blocked",
+    "lead_email": "chris@example.com",
+    "team_members": [
+      {
+        "user_email": "chris@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "laura@example.com",
+        "role": "Payment Specialist"
+      }
+    ],
+    "start_date": "2024-02-15",
+    "end_date": "2024-06-30",
+    "progress": 15,
+    "labels": ["payments", "finance", "upgrade"],
+    "dependencies": ["5"],
+    "attachment_urls": [],
+    "initiatives": ["Payment Modernization"],
+    "goals": ["Support new payment methods", "Reduce processing time"]
+  },
+  {
+    "id": "10",
+    "title": "Content Management System",
+    "description": "Develop a new content management system for marketing team",
+    "team_id": "team9",
+    "status": "Planned",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "nina@example.com",
+    "team_members": [
+      {
+        "user_email": "nina@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "dan@example.com",
+        "role": "Content Strategist"
+      }
+    ],
+    "start_date": "2024-04-01",
+    "end_date": "2024-09-30",
+    "progress": 0,
+    "labels": ["cms", "content", "marketing"],
+    "dependencies": ["1"],
+    "attachment_urls": [],
+    "initiatives": ["Content Strategy"],
+    "goals": ["Streamline content creation", "Better content organization"]
+  },
+  {
+    "id": "11",
+    "title": "Performance Optimization",
+    "description": "Optimize application performance and reduce load times",
+    "team_id": "team10",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "On Track",
+    "lead_email": "alex@example.com",
+    "team_members": [
+      {
+        "user_email": "alex@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "mike@example.com",
+        "role": "Performance Engineer"
+      }
+    ],
+    "start_date": "2024-02-01",
+    "end_date": "2024-04-30",
+    "progress": 55,
+    "labels": ["performance", "optimization", "frontend"],
+    "dependencies": ["1"],
+    "attachment_urls": [],
+    "initiatives": ["Performance First"],
+    "goals": ["Reduce load times", "Improve user experience"]
+  },
+  {
+    "id": "12",
+    "title": "Automated Testing Framework",
+    "description": "Implement comprehensive automated testing framework",
+    "team_id": "team11",
+    "status": "In Progress",
+    "priority": "Medium",
+    "health": "At Risk",
+    "lead_email": "sarah@example.com",
+    "team_members": [
+      {
+        "user_email": "sarah@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "john@example.com",
+        "role": "QA Engineer"
+      }
+    ],
+    "start_date": "2024-01-15",
+    "end_date": "2024-05-31",
+    "progress": 35,
+    "labels": ["testing", "automation", "qa"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Quality First"],
+    "goals": ["Increase test coverage", "Reduce manual testing"]
+  },
+  {
+    "id": "13",
+    "title": "Customer Feedback System",
+    "description": "Develop a new system for collecting and analyzing customer feedback",
+    "team_id": "team12",
+    "status": "Planned",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "emma@example.com",
+    "team_members": [
+      {
+        "user_email": "emma@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "lisa@example.com",
+        "role": "UX Researcher"
+      }
+    ],
+    "start_date": "2024-04-15",
+    "end_date": "2024-08-31",
+    "progress": 0,
+    "labels": ["feedback", "customer", "analytics"],
+    "dependencies": ["6"],
+    "attachment_urls": [],
+    "initiatives": ["Customer First"],
+    "goals": ["Better customer insights", "Improved product decisions"]
+  },
+  {
+    "id": "14",
+    "title": "Documentation Portal",
+    "description": "Create a centralized documentation portal for all projects",
+    "team_id": "team13",
+    "status": "In Progress",
+    "priority": "Low",
+    "health": "On Track",
+    "lead_email": "david@example.com",
+    "team_members": [
+      {
+        "user_email": "david@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "anna@example.com",
+        "role": "Technical Writer"
+      }
+    ],
+    "start_date": "2024-02-01",
+    "end_date": "2024-06-30",
+    "progress": 25,
+    "labels": ["documentation", "knowledge", "portal"],
+    "dependencies": [],
+    "attachment_urls": [],
+    "initiatives": ["Knowledge Management"],
+    "goals": ["Centralized documentation", "Better knowledge sharing"]
+  },
+  {
+    "id": "15",
+    "title": "Mobile App Localization",
+    "description": "Add multi-language support to the mobile application",
+    "team_id": "team2",
+    "status": "In Progress",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "mike@example.com",
+    "team_members": [
+      {
+        "user_email": "mike@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "alex@example.com",
+        "role": "Developer"
+      }
+    ],
+    "start_date": "2024-03-01",
+    "end_date": "2024-07-31",
+    "progress": 15,
+    "labels": ["localization", "mobile", "i18n"],
+    "dependencies": ["2"],
+    "attachment_urls": [],
+    "initiatives": ["Global Reach"],
+    "goals": ["Support 5 languages", "International market expansion"]
+  },
+  {
+    "id": "16",
+    "title": "Database Migration",
+    "description": "Migrate to a new database system with improved performance",
+    "team_id": "team14",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "At Risk",
+    "lead_email": "peter@example.com",
+    "team_members": [
+      {
+        "user_email": "peter@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "sophie@example.com",
+        "role": "Database Engineer"
+      }
+    ],
+    "start_date": "2024-02-15",
+    "end_date": "2024-06-30",
+    "progress": 30,
+    "labels": ["database", "migration", "performance"],
+    "dependencies": ["3"],
+    "attachment_urls": [],
+    "initiatives": ["Database Modernization"],
+    "goals": ["Improved performance", "Better scalability"]
+  },
+  {
+    "id": "17",
+    "title": "Marketing Automation",
+    "description": "Implement marketing automation tools and workflows",
+    "team_id": "team15",
+    "status": "Planned",
+    "priority": "Medium",
+    "health": "On Track",
+    "lead_email": "lisa@example.com",
+    "team_members": [
+      {
+        "user_email": "lisa@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "tom@example.com",
+        "role": "Marketing Specialist"
+      }
+    ],
+    "start_date": "2024-04-01",
+    "end_date": "2024-08-31",
+    "progress": 0,
+    "labels": ["marketing", "automation", "workflow"],
+    "dependencies": ["10"],
+    "attachment_urls": [],
+    "initiatives": ["Marketing Automation"],
+    "goals": ["Streamline marketing", "Better campaign tracking"]
+  },
+  {
+    "id": "18",
+    "title": "Security Training Program",
+    "description": "Develop and implement company-wide security training",
+    "team_id": "team5",
+    "status": "In Progress",
+    "priority": "High",
+    "health": "On Track",
+    "lead_email": "james@example.com",
+    "team_members": [
+      {
+        "user_email": "james@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "anna@example.com",
+        "role": "Security Trainer"
+      }
+    ],
+    "start_date": "2024-03-01",
+    "end_date": "2024-05-31",
+    "progress": 40,
+    "labels": ["security", "training", "compliance"],
+    "dependencies": ["5"],
+    "attachment_urls": [],
+    "initiatives": ["Security Awareness"],
+    "goals": ["100% employee training", "Reduce security incidents"]
+  },
+  {
+    "id": "19",
+    "title": "Analytics Dashboard",
+    "description": "Create a new analytics dashboard for business metrics",
+    "team_id": "team6",
+    "status": "In Progress",
+    "priority": "Medium",
+    "health": "Delayed",
+    "lead_email": "rachel@example.com",
+    "team_members": [
+      {
+        "user_email": "rachel@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "peter@example.com",
+        "role": "Data Analyst"
+      }
+    ],
+    "start_date": "2024-02-01",
+    "end_date": "2024-06-30",
+    "progress": 20,
+    "labels": ["analytics", "dashboard", "metrics"],
+    "dependencies": ["6"],
+    "attachment_urls": [],
+    "initiatives": ["Data Visualization"],
+    "goals": ["Real-time metrics", "Better business insights"]
+  },
+  {
+    "id": "20",
+    "title": "API Documentation",
+    "description": "Create comprehensive API documentation and developer portal",
+    "team_id": "team7",
+    "status": "In Progress",
+    "priority": "Low",
+    "health": "On Track",
+    "lead_email": "mark@example.com",
+    "team_members": [
+      {
+        "user_email": "mark@example.com",
+        "role": "Project Lead"
+      },
+      {
+        "user_email": "sophie@example.com",
+        "role": "Technical Writer"
+      }
+    ],
+    "start_date": "2024-03-15",
+    "end_date": "2024-07-31",
+    "progress": 10,
+    "labels": ["api", "documentation", "developer"],
+    "dependencies": ["7"],
+    "attachment_urls": [],
+    "initiatives": ["Developer Experience"],
+    "goals": ["Comprehensive API docs", "Better developer onboarding"]
+  }
+]

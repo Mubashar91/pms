@@ -1,0 +1,32 @@
+{
+  "name": "Conversation",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Conversation title"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Email addresses of participants"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "direct",
+        "group"
+      ],
+      "default": "direct"
+    },
+    "last_message_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "participants"
+  ]
+}

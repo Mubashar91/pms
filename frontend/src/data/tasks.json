@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Set up project structure",
+    "description": "Create initial project setup and configuration",
+    "projectId": 1,
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "John Doe",
+    "dueDate": "2025-06-20"
+  },
+  {
+    "id": 2,
+    "title": "Design UI components",
+    "description": "Create reusable UI components for the application",
+    "projectId": 1,
+    "status": "pending",
+    "priority": "high",
+    "assignee": "Jane Smith",
+    "dueDate": "2025-06-25"
+  },
+  {
+    "id": 3,
+    "title": "Database setup",
+    "description": "Configure and set up the database",
+    "projectId": 2,
+    "status": "completed",
+    "priority": "medium",
+    "assignee": "Mike Johnson",
+    "dueDate": "2025-06-15"
+  }
+]

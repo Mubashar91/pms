@@ -1,0 +1,21 @@
+{
+  "name": "Team",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the team"
+    },
+    "description": {
+      "type": "string",
+      "description": "A brief description of the team's purpose"
+    },
+    "icon": {
+      "type": "string",
+      "description": "An emoji or icon identifier for the team"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
